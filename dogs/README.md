@@ -1,1 +1,1 @@
-React app that renders a pic of a dog by fetching an API everytime the user clicks the button.
+React app that renders a pic of a dog by fetching an API every time the user clicks the button.
