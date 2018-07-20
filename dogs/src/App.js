@@ -28,12 +28,14 @@ class App extends Component {
     return (
       <div className="App">
         <Header />
-        <button onClick={this.handleChange}>Click Here!</button>
+        <div className='boneButton'>
+          <button onClick={this.handleChange}></button>
+        </div>
         <div>
           {gotData
             ?
             <Body image={this.state.dogImage.message} />
-            : <h2>Click the button to see a pup!</h2>
+            : <h2>Click the bone to see a pup!</h2>
           }
         </div>
       </div>

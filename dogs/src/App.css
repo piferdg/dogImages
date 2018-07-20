@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+body {
+  background: url(./assets/paw-prints-background.jpg)
+}
+
 .App-header {
   background-color: #222;
   height: 50px;
@@ -14,7 +18,17 @@
 }
 
 img {
-  padding-top: 30px;
+  border-radius: 50%;
+  height: 500px;
+  width: 600px;
+}
+
+button {
+  background: url(./assets/bone_PNG23.png);
+  background-size: cover;
+  height: 50px;
+  width: 130px;
+  border: none
 }
 
 
